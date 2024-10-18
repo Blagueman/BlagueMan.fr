@@ -9,7 +9,7 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
-	<link rel="stylesheet" href="assets/css/meyawo.css">
+	<link rel="stylesheet" href="assets/css/blague.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -22,17 +22,12 @@
                     <a class="link" href="index.html">Accueil</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#about">À propos</a>
+                    <a class="link" href="index.html#blagues">Blagues</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#service">Blagues</a>
+                    <a class="link" href="index.html#expressions">Expressions</a>
                 </li>
-                <li class="item">
-                    <a class="link" href="#portfolio">Expressions</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#pricing">Suggestions</a>
-                </li>
+                
                
             </ul>
             <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
@@ -51,13 +46,50 @@
                 <span class="up"></span>
                 <span class="down"></span>
             </h1>
-            <p class="header-subtitle">Bienvenu chez Boutades Land</p>            
+            <p class="header-subtitle">Bienvenu au royaume de l'ennui...</p>            
 
         </div>              
     </header><!-- end of page header -->
 
-    
+    <!-- Rectangle Section -->
 
+    <style>
+        .rectangle {
+            background-color: #695aa6; /* Violet clair */
+            border-radius: 20px; /* Angles arrondis modernes */
+            padding: 200px;
+            width: 400px;
+            height: 150px;
+            margin-left: 760px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Légère ombre pour l'effet de relief */
+        }
+    </style>
+
+    <div class="rectangle">
+        <div class="text">
+            
+        </div>
+    </div>
+
+
+
+    <!-- Bagues section -->
+    <div class="blague-container">
+        <h2>Blague</h2>
+        <p id="blague-text"></p>
+       
+    </div>
+    <div class="blague-container reponse">
+        <p id="blague-reponse" class="joke-reponse">réponse</p>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+    <button id="suivant-btn" class="btn">Suivant</button>
+    <script src="ba_script1.js"></script>
+    <!-- End Blagues section -->
     
 
 

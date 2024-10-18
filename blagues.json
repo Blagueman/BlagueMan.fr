@@ -33,7 +33,7 @@
         "reponse":"Parce que l'amour tarde"
       },
       {
-        "blague": "Comment appelle t-on une femme qui a perdu son intelligence ?",
+        "blague": "Comment appele t-on une femme qui a perdu son intelligence ?",
         "reponse":"Une veuve"
       },
       {
@@ -161,10 +161,6 @@
         "reponse":"Le boomerang parce que lui il revient"
       },
       {
-        "blague": "Qu'est-ce qui fait rire 9 personnes sur 10 ?",
-        "reponse":"Un viol collectif"
-      },
-      {
         "blague": "Maman maman j'en ai marre de dormir avec mon frère !",
         "reponse":"Je t'ai déjà dit qu'on avait pas assez d'argent pour acheter un cerceuil"
       },
@@ -183,10 +179,6 @@
       {
         "blague": "Qu'est-ce que tu fais quand ta poupée gonflable à les yeux blancs ?",
         "reponse":"Tu la nettoyes"
-      },
-      {
-        "blague": "Qu'est-ce qu'un bébé blanc avec des ailes ? Un ange, Qu'est-ce qu'un bébé noir avec des ailes ?",
-        "reponse":"Une mouche à merde"
       },
       {
         "blague": "Comment apelle t-on un chauffeur de corbillard",
@@ -319,12 +311,7 @@
       {
         "blague": "Comment un parachutiste aveugle sait-il qu'il va toucher le sol ?",
         "reponse":"Il y a du mou dans la laisse du chien"
-      },
-      {
-        "blague": "Qu'est-ce qu'un juif qui fait du parachute ?",
-        "reponse":"Une étoile filante"
       }
-
     ]
 }
   

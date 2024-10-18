@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>BlagueMan</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/blague.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">BlagueMan</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="index.html">Accueil</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="index.html#blagues">Blagues</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="index.html#expressions">Expressions</a>
+                </li>
+                
+               
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up"></span>
+                <span class="down"></span>
+            </h1>
+            <p class="header-subtitle">Les expressions c'est rigolo</p>            
+
+        </div>              
+    </header><!-- end of page header -->
+
+    <!-- Rectangle Section -->
+
+    <style>
+        .rectangle {
+            background-color: #695aa6; /* Violet clair */
+            border-radius: 20px; /* Angles arrondis modernes */
+            padding: 200px;
+            width: 400px;
+            height: 150px;
+            margin-left: 760px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Légère ombre pour l'effet de relief */
+        }
+    </style>
+
+    <div class="rectangle">
+        <div class="text">
+            
+        </div>
+    </div>
+
+
+
+    <!-- Bagues section -->
+    <div class="blague-container">
+        <h2>Blague</h2>
+        <p id="blague-text"></p>
+       
+    </div>
+    <div class="blague-container reponse">
+        <p id="blague-reponse" class="joke-reponse">réponse</p>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+    <button id="suivant-btn" class="btn">Suivant</button>
+    <script src="ea_expressions1.js"></script>
+    <!-- End Blagues section -->
+    
+
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">       
+            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="">BlagueMan</a></p>
+        </footer>
+    </div> <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+</html>

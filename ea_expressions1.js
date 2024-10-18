@@ -9,7 +9,7 @@ let indexBlague = 0;
 let blagues = [];
 
 // Récupération des données de blague depuis le fichier JSON
-fetch('blagues1.json')
+fetch('ea_expressions1.json')
     .then(response => response.json())
     .then(data => {
         blagues = data.blagues;
