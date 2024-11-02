@@ -63,7 +63,7 @@ setTimeout(function() {
 // Récupération des éléments HTML
 const expressionTexte = document.getElementById('expression-text');
 const BTNsuivant = document.getElementById('suivant-btn1');
-const confettis = document.querySelector('#confetti-canvas1');
+const confettis = document.querySelector('#confetti-canvas');
 
 // Initialisation des variables
 let indexExp = 0;

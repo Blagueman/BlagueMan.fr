@@ -12261,112 +12261,61 @@ pre .code {
 /* Blague Section */
 
 .rectangle {
-  background-color: #d8bfea; /* Violet clair */
-  border-radius: 20px; /* Coins arrondis */
-  padding: 20px; /* Espace autour du contenu */
-  width: 100%; /* Prend toute la largeur disponible */
-  max-width: 600px; /* Largeur maximale */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Ombre portée */
-  word-wrap: break-word; /* Permet le retour à la ligne si nécessaire */
-  text-align: center; /* Centre le texte */
-  margin: 0 auto; /* Centre le rectangle horizontalement */
-  position: relative;
+    background-color: #695aa6; /* Violet clair */
+    border-radius: 20px; /* Coins arrondis */
+    padding: 100px; /* Espace autour du contenu */
+    width: 100%; /* Prend toute la largeur disponible */
+    max-width: 600px; /* Largeur maximale */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Ombre portée */
+    word-wrap: break-word; /* Permet le retour à la ligne si nécessaire */
+    text-align: center; /* Centre le texte */
+    margin: 0 auto; /* Centre le rectangle horizontalement */
+    position: relative;
 }
 
 .blague-container {
-  background-color: #f1f1f1; /* Fond de la blague */
-  border-radius: 10px; /* Arrondir les coins */
-  padding: 20px; /* Espace intérieur */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre intérieure */
-  margin: 0 auto;
-  display: flex;
-  width: 100%;
+    background-color: #f1f1f1; /* Fond de la blague */
+    border-radius: 10px; /* Arrondir les coins */
+    padding: 20px; /* Espace intérieur */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre intérieure */
+    margin: 0 auto; /* Centre le conteneur */
+    display: flex; /* Utilisation de flexbox */
+    flex-direction: column; /* Dispose les éléments en colonne */
+    align-items: center; /* Centre les éléments horizontalement */
 }
 
-/* .blague-container {
-  max-width: 90 px ; 
-  width: auto;
-  text-align: center;
-  padding: 20px;
-  background-color: #f1f1f1;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  top: 102%;
-  left: 50%;
-  transform: translate(-50%);
-} */
-
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 18px;
-  margin-bottom: 20px;
-  line-height: 1.5;
-}
-
-.btn {
-  background-color: #a60e0e;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-#confetti-canvas {
-  z-index: 999; 
-  width: 100vw; 
-  height: 100vh; 
-  pointer-events: none;
-  position: absolute;
-  top: 122%;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-#suivant-btn{
-  /* position: absolute;
-  top: 137%;
-  left: 50%;
-  transform: translate(-50%); */
-  background-color: #a60e0e; /* Couleur de fond du bouton */
-  color: #fff; /* Couleur du texte du bouton */
-  padding: 10px 20px; /* Espace intérieur du bouton */
-  border: none; /* Pas de bordure */
-  border-radius: 5px; /* Coins arrondis */
-  font-size: 18px; /* Taille de la police */
-  cursor: pointer; /* Change le curseur au survol */
-  margin-top: 20px; /* Espace au-dessus du bouton */
-}
-
-.reponse {
-  margin-top: 20px;
-  /* position: absolute;
-  top: 122%; */
-  animation: none;
-  opacity: 1;
-  /* visibility: visible; */
-}
-
-.reponse:hover{
-  visibility: visible;
-  opacity: 1;
-  cursor: pointer;
+h2, #blague-text, #blague-reponse {
+    font-size: 18px; /* Taille de la police pour la question et la réponse */
+    margin: 10px 0; /* Espacement autour des éléments */
 }
 
 .reponse p {
-  color: #fff;
-  transition: color  ease-in-out;
+    color: #f1f1f1;
+    transition: color 0.3s ease;
 }
 
 .reponse p:hover {
-  color: #000;
-  cursor: pointer;
+    color: black;
+}
+
+
+
+
+.btn {
+    background-color: #a60e0e; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espace intérieur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 18px; /* Taille de la police */
+    cursor: pointer; /* Change le curseur au survol */
+    margin-top: 20px; /* Espace au-dessus du bouton */
+}
+
+
+
+img {
+    width: 40px;
 }
 
 
