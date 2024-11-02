@@ -9,14 +9,14 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
-	<link rel="stylesheet" href="assets/css/blague.css">
+	<link rel="stylesheet" href="assets/css/ba-blagues1.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="logo" href="#">BlagueMan</a>         
+            <a class="logo" href="index.html">BlagueMan🍻</a>         
             <ul class="nav">
                 <li class="item">
                     <a class="link" href="index.html">Accueil</a>
@@ -46,51 +46,33 @@
                 <span class="up"></span>
                 <span class="down"></span>
             </h1>
-            <p class="header-subtitle">Les expressions c'est rigolo</p>            
+            <p class="header-subtitle">Les expressions c'est rigolo !</p>            
 
         </div>              
     </header><!-- end of page header -->
 
-    <!-- Rectangle Section -->
+    
+  
+    
 
-    <style>
-        .rectangle {
-            background-color: #695aa6; /* Violet clair */
-            border-radius: 20px; /* Angles arrondis modernes */
-            padding: 200px;
-            width: 400px;
-            height: 150px;
-            margin-left: 760px;
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Légère ombre pour l'effet de relief */
-        }
-    </style>
+
+
+    <!-- Blague section -->
 
     <div class="rectangle">
-        <div class="text">
-            
+        <div class="blague-container">
+            <h2 id="expression-text"></h2>
+            <button id="suivant-btn" class="btn">Suivant</button>
         </div>
     </div>
-
-
-
-    <!-- Bagues section -->
-    <div class="blague-container">
-        <h2>Blague</h2>
-        <p id="blague-text"></p>
-       
-    </div>
-    <div class="blague-container reponse">
-        <p id="blague-reponse" class="joke-reponse">réponse</p>
-    </div>
-    <canvas id="confetti-canvas"></canvas>
-    <button id="suivant-btn" class="btn">Suivant</button>
-    <script src="ea_expressions1.js"></script>
-    <!-- End Blagues section -->
     
+    <canvas id="confetti-canvas"></canvas>
+    <script src="ea_expressions1.js"></script>
+    
+    
+
+    <!-- End Blague section -->
+
 
 
     <!-- footer -->

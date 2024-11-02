@@ -18,7 +18,7 @@ let indexExp = 0;
 let exp = [];
 
 // Récupération des données d'expression depuis le fichier JSON
-fetch('ea_expressions1.json')
+fetch('es_expressions2.json')
     .then(response => response.json())
     .then(data => {
         exp = data.expressions; // Assurez-vous que le JSON a bien une clé 'expressions'
